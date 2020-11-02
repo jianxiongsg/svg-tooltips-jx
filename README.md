@@ -44,7 +44,7 @@ const getDefsElement = ()=>{
 
 | 参数          | 介绍                          |
 |-------------|-----------------------------|
-| arrowPath | 尖角路径（可选，默认尖角）arrowPath，arrowWidth，arrowHeight 三个参数要配合使用，配套生成工具完善中    |
+| arrowPath | 尖角路径（可选，默认尖角）    |
 | arrowWidth | 尖角宽度（可选）                    |
 | arrowHeight | 尖角高度（可选）                    |
 | widht | 气泡宽度                    |
@@ -56,4 +56,4 @@ const getDefsElement = ()=>{
 | content     | 气泡内容                      |
 | defsElement | svg defs元素，用于渐变                      |
 | fill        | fill,配合defsElement,也可直接设置颜色                     |
-| a11yId | tooltips id |
+| a11yId | tooltips 的id名 |
