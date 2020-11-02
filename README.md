@@ -38,3 +38,22 @@ const getDefsElement = ()=>{
     arrowPath="L -12 12 L -24 0"
     content={getContent()}
 ></SvgToolTip>
+
+
+### Props
+
+| 参数          | 介绍                          |
+|-------------|-----------------------------|
+| arrowPath | 尖角路径（可选，默认尖角）arrowPath，arrowWidth，arrowHeight 三个参数要配合使用，配套生成工具完善中    |
+| arrowWidth | 尖角宽度（可选）                    |
+| arrowHeight | 尖角高度（可选）                    |
+| widht | 气泡宽度                    |
+| height | 气泡高度                    |
+| strockWidth | 边框宽度                       |
+| direction   | 尖角方向(left/right/top/bottom)|
+| arrowOffset | 尖角距离气泡中心点的offset         |
+| radius      | 气泡四周圆角                      |
+| content     | 气泡内容                      |
+| defsElement | svg defs元素，用于渐变                      |
+| fill        | fill,配合defsElement,也可直接设置颜色                     |
+| a11yId | tooltips id |
