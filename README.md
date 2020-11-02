@@ -12,10 +12,12 @@ const getContent=()=>{
         return <div>content</div>
 }
 ```
-const defsElement = <linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
-    <stop offset="0%" stop-color="rgba(0,0,0,0.4)"/>
-    <stop offset="100%" stop-color="rgba(0,0,0,.8)" />
-  </linearGradient>;
+const getDefsElement = ()=>{
+    return <linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="rgba(0,0,0,0.4)"/>
+            <stop offset="100%" stop-color="rgba(0,0,0,.8)" />
+        </linearGradient>
+};
 ```
 <SvgToolTip
     className={`svg-con`}
@@ -28,7 +30,7 @@ const defsElement = <linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
     arrowOffset={0}
     arrowWidth={12}
     arrowHeight={24}
-    defsElement=defsElement
+    defsElement={getDefsElement()}
     fill='url(#Gradient1)'
     arrowPath="L -12 12 L -24 0"
     content={getContent()}
